@@ -1,4 +1,7 @@
-# consumindo_tomquirk_linkedinAPI
+# Lambda with DynamoDB
+
+# Waring 
+That API dont work in AWS. your gonna need replace with a oficial linkedin API.
 
 # Linkedin API
 https://github.com/tomquirk/linkedin-api
