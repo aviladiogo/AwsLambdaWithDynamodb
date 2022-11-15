@@ -6,5 +6,7 @@ use the zip in this repository and follow the steps to create a layer
 
 https://www.geeksforgeeks.org/how-to-install-python-packages-for-aws-lambda-layers/
 
-# Link for understand the API
-https://www.youtube.com/watch?v=YJoof1kX_kQ
+# Links for understand the API
+generate Token: https://www.youtube.com/watch?v=YJoof1kX_kQ
+
+API Documentation: https://learn.microsoft.com/pt-br/linkedin/consumer/integrations/self-serve/sign-in-with-linkedin
