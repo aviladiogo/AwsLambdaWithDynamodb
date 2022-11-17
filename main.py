@@ -24,11 +24,22 @@ def sendToDynamoDB(event):
     except:
         raise
 
+def getFromDynamoDB():
+    client_dynamo=boto3.resource('dynamodb')
+    table=client_dynamo.Table('UsersDataLinkedin')
+    try:
+        response = table.get_item(Key={'ID': 'IcOEj0Ggr2'})
+        print(response)
+    except:
+        raise   
+    
+
 def lambda_handler(event, context):
     data = {}
     data['ID'] = getData()['id']
     data['Name'] = getData()['localizedFirstName']
     data['LastName'] = getData()['localizedLastName']
     data['Email'] = getEmail()['elements'][0]['handle~']['emailAddress']
-
+    
     sendToDynamoDB(data) # decoding to utf8 and sending to dynamoDB
+    #getFromDynamoDB()
