@@ -10,3 +10,6 @@ https://www.geeksforgeeks.org/how-to-install-python-packages-for-aws-lambda-laye
 generate Token: https://www.youtube.com/watch?v=YJoof1kX_kQ
 
 API Documentation: https://learn.microsoft.com/pt-br/linkedin/consumer/integrations/self-serve/sign-in-with-linkedin
+
+# How create a AWS dynamoDB api
+https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-dynamo-db.html#http-api-dynamo-db-create-api
